@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+/* .bg-gradient{
+    background: linear-gradient(49deg,rgba(0, 183, 255, 0.765),rgba(25, 0, 249, 0.641));
+    border-radius: 7px;
+} */
+
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-temp{
+  background: linear-gradient(49deg,rgba(0, 183, 255, 0.466),rgba(25, 0, 249, 0.215));
+}
